@@ -116,23 +116,31 @@ http://localhost:5173
 - MySQL
 - REST API
 
-##  Base de datos
+## Base de datos
 
-El proyecto incluye un archivo SQL con la estructura inicial de la base de datos.
+El proyecto usa MySQL ejecutándose en un entorno local con XAMPP (Apache + MySQL).
 
-Ruta:
-database/schema.sql
+Crear la base de datos
 
+1 Iniciar el servidor local con XAMPP:
 
-### Crear la base de datos
-Crear BD vacía en phpMyAdmin
+* Abrir XAMPP Control Panel
 
-mini_task_manager
+* Iniciar:
 
- Ir a pestaña Importar
+- Apache
+- MySQL
 
-Subir el archivo:
+2 Abrir phpMyAdmin:
 
+http://localhost/phpmyadmin
+
+3 Crear una base de datos vacía llamada:
+- mini_task_manager
+
+4 mportar el dump incluido en el proyecto:
+
+* Ir a la pestaña Importar
+* Subir el archivo:
 tasks_db.sql
-
-Click Importar
+Click en Importar
