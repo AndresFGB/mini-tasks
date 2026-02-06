@@ -115,3 +115,24 @@ http://localhost:5173
 - JWT Auth
 - MySQL
 - REST API
+
+##  Base de datos
+
+El proyecto incluye un archivo SQL con la estructura inicial de la base de datos.
+
+Ruta:
+database/schema.sql
+
+
+### Crear la base de datos
+Crear BD vacía en phpMyAdmin
+
+mini_task_manager
+
+ Ir a pestaña Importar
+
+Subir el archivo:
+
+tasks_db.sql
+
+Click Importar
